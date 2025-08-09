@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Form</title>
+</head>
+<body>
+    <div style="width: 350px; margin: 50px auto; padding: 20px; border: 2px solid #000; border-radius: 10px; background-color: #f9f9f9;=">
+        <h2 style="text-align: center;">Travel Information Form</h2>
+        <form action="" method="post">
+            <label for="username">Full Name:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your name" required style="width: 100%; padding: 5px;"><br><br>
+            <label for="dept">Department:</label><br>
+            <select id="dept" name="department" required style="width: 100%; padding: 5px;">
+                <option value="">-- Select you department --</option>
+                <option value="it">IT</option>
+                <option value="cse">CSE</option>
+                <option value="aids">AIDS</option>
+                <option value="eee">EEE</option>
+                <option value="ece">ECE</option>
+                <option value="mech">MECH</option>
+            </select><br><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 5px;"><br><br>
+           
+            <label for="travel">Travel Mode:</label><br>
+            <select id="travel" name="travels" required style="width: 100%; padding: 5px;">
+                <option value="">-- Select your travel mode --</option>
+                <option value="bus">Dayscholer</option>
+                <option value="bike">Own vehicle</option>
+                <option value="hostel">Hostel</option>
+            </select><br><br>
+            <input type="submit" value="Submit"  width: 100%; padding: 8px; background-color: #007BFF; color: white; border: none; cursor: pointer; border-radius: 5px;">
+        </form>
+    </div>
+    
+</body>
+</html>
